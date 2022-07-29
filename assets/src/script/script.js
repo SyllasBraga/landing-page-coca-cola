@@ -21,7 +21,6 @@ function nextImg() {
         proxImg++;
         console.log("ProxImg: "+proxImg+". AtualImg: "+atualImg+" nextImg");
     }
-    IMG_STYLE.style.transform = "translateX(-50px)";
 
 }
 function backImg() {
@@ -29,14 +28,14 @@ function backImg() {
         IMG[atualImg].classList.remove("imgVisivel");
         atualImg = IMG.length-1;
         IMG[atualImg].classList.add("imgVisivel");
-        proxImg = IMG.length-2;
-        console.log("ProxImg: "+proxImg+". AtualImg: "+atualImg+" if backImg")
+        proxImg = IMG.length;
+        console.log("ProxImg: "+proxImg+". AtualImg: "+atualImg+" if backImg");
     }else{
         IMG[atualImg].classList.remove("imgVisivel");
         atualImg--;
         IMG[proxImg].classList.add("imgVisivel");
         proxImg--;
-        console.log("ProxImg: "+proxImg+". AtualImg: "+atualImg+" backImg")
+        console.log("ProxImg: "+proxImg+". AtualImg: "+atualImg+" backImg");
     }
 
 }

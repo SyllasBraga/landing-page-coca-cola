@@ -111,6 +111,7 @@ body{
     border: transparent;
     color: white;
     font-size: 65px;
+    margin: 10%;
 }
 
 .swipper button:nth-child(1){
@@ -131,12 +132,15 @@ body{
 }
 .swipper .imgVisivel{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+}
+.swipper .imgObj{
+    display: flex;
     max-height: 250px;
     max-width: 200px;
-    padding-left: 60px;
-    padding-right: 60px;
-    transition: transform 0.5s ease;
-    transform: translateX(-50deg);
 }
 
 .section-more{
