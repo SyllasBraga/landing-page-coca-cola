@@ -141,6 +141,7 @@ body{
     display: flex;
     max-height: 250px;
     max-width: 200px;
+    transform: rotateY(-20deg);
 }
 
 .section-more{
