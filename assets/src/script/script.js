@@ -1,5 +1,4 @@
 const IMG = document.getElementsByClassName("img");
-const IMG_STYLE = document.getElementById("img");
 const BTN_NEXT = document.getElementById("next");
 const BTN_BACK = document.getElementById("back");
 
